@@ -1,0 +1,67 @@
+.detailsPane {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 3px;
+  flex: 1;
+  font-size: 15px;
+  font-weight: 800;
+  position: relative;
+  padding: 0 20px;
+  margin: 0 50px;
+  height: 490px;
+}
+.detailsPane div {
+  margin-top: 18px;
+}
+
+.detailsPane input,
+.detailsPane textarea {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 3px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.detailsPane .detailsPaneTitle {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -17px;
+  width: fit-content;
+  padding: 0 5px;
+  background-color: white;
+  opacity: 1;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.detailsForm {
+  margin: 15px 0;
+}
+
+.detailsPaneImage img {
+  max-width: 25%;
+  border-radius: 9px;
+}
+
+.detailsPane .priceSection input {
+  width: 10% !important;
+}
+
+.detailsPane .descriptionSection textarea {
+  height: 5em;
+  resize: vertical;
+}
+
+.detailsPane .buttonSection button {
+  background-color: #b6d7a8;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}

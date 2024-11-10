@@ -1,0 +1,13 @@
+.leftPaneContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.productsList {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
